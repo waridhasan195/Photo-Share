@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#252525"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="#7e7e7e"
+        android:textColorHint="#9c9c9c"
+        android:background="#3e3e3e"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/passwordid"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:textColor="#7e7e7e"
+        android:background="#3e3e3e"
+        android:textColorHint="#9c9c9c"
+        android:textStyle="bold"
+        android:password="true"
+        android:layout_marginTop="15dp"
+        android:hint="password"
+        />
+
+    <Button
+        android:id="@+id/loginid"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="#81012b"
+        android:layout_marginTop="15dp"
+        android:text="Login"
+        android:textStyle="bold"
+        />
+
+
+
+    <Button
+        android:id="@+id/createaccountid"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:background="#c12000"
+        android:layout_marginTop="220dp"
+        android:text="Create a new account"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#252525"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".ProfileSetting">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleimage"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/default_image" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Your Name ....."
+        android:textColor="#b6b6b6"
+        android:inputType="text"
+        android:textColorHint="#b6b6b6" />
+    <Button
+        android:id="@+id/button"
+        android:background="#ff7b00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Save Account Settings " />
+</LinearLayout>

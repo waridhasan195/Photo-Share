@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Profile Setting"
+        android:id="@+id/profile_setting"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="Theme Change"
+        android:id="@+id/theme_change"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="Account Setting"
+        android:id="@+id/account_setting"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Log Out"
+        android:id="@+id/log_out"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        android:id="@+id/search"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share"
+        android:id="@+id/share"
+        app:showAsAction="always"
+        />
+
+
+</menu>

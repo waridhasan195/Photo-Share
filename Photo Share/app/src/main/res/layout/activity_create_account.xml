@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#252525"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill-up Information "
+        android:textColor="#ff8c00"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:id="@+id/remailid"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#7e7e7e"
+        android:hint="Enter Your Email"
+        android:background="#353535"
+        android:textColorHint="#7e7e7e"
+        />
+    <EditText
+        android:id="@+id/rpasswordid"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textColor="#7e7e7e"
+        android:layout_marginTop="10dp"
+        android:password="true"
+        android:hint="Enter Your Password"
+        android:background="#353535"
+        android:textColorHint="#7e7e7e"
+        />
+    <EditText
+        android:id="@+id/rconfirmpasswordid"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:password="true"
+        android:textColor="#7e7e7e"
+        android:hint="Confirm Password"
+        android:background="#353535"
+        android:textColorHint="#7e7e7e"
+        />
+    <Button
+        android:id="@+id/rbtnid"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#ff7b00"
+        android:layout_marginTop="30dp"
+        android:text="Register"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/rsigninbtnid"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="#ff3700"
+        android:layout_marginTop="90dp"
+        android:text="Sign in"
+        android:textStyle="bold"
+        />
+</LinearLayout>
